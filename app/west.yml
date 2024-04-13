@@ -4,10 +4,14 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v3.5.0+zmk-fixes
+      # remote: zmkfirmware
+      # revision: v3.5.0+zmk-fixes
+      remote: caksoylar
+      revision: caksoylar/zen-v1+v2+experimental
       clone-depth: 1
       import:
         name-blocklist:
